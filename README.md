@@ -6,5 +6,8 @@ Icons used from [SVG Repo - Social Media Outline Vectors](https://www.svgrepo.co
 **Information:**  
 This website was created by Danny Garcia. © 2025. Visit [dannygarcia.org](https://dannygarcia.org).  
 
+**License:**  
+This website and repository are licensed under the MIT License. For more information, see the [LICENSE](https://github.com/garcia-danny/dannygarcia.org/blob/main/LICENSE) file.  
+
 **Contact:**  
 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/garcia-danny) or email me at [danny@dannygarcia.org](mailto:danny@dannygarcia.org).  
