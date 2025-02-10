@@ -1,0 +1,80 @@
+html {
+    --background-color: #f1f5f9;
+    --color: black;
+    --icon-filter: brightness(0);
+
+    background-color: var(--background-color);
+    color: var(--color);
+    font-family: sans-serif;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    html {
+      --background-color: black;
+      --color: white;
+      --icon-filter: invert(100%);
+    }
+  }
+
+  body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80ch;
+    padding: 1rem;
+    line-height: 1.5;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .title {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+  }
+
+  .title .title-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .headshot {
+    width: 10rem;
+    border-radius: 100%;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 3rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .title {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+
+  a {
+    color: var(--color);
+    font-weight: bold;
+  }
+
+  li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .icons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .icon {
+    filter: var(--icon-filter);
+  }
